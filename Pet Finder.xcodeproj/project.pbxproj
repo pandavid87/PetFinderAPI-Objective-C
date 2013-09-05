@@ -7,31 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143834F817D93DAA00CB6960 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 143834D017D93DAA00CB6960 /* Default-568h@2x.png */; };
+		143834F917D93DAA00CB6960 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 143834D117D93DAA00CB6960 /* Default.png */; };
+		143834FA17D93DAA00CB6960 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 143834D217D93DAA00CB6960 /* Default@2x.png */; };
+		143834FC17D93DAA00CB6960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834D517D93DAA00CB6960 /* main.m */; };
+		143834FF17D93DAA00CB6960 /* PetFinderExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834DC17D93DAA00CB6960 /* PetFinderExampleAppDelegate.m */; };
+		1438350017D93DAA00CB6960 /* PetFinderExampleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143834DD17D93DAA00CB6960 /* PetFinderExampleStoryboard.storyboard */; };
+		1438350117D93DAA00CB6960 /* PetFinderExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834DF17D93DAA00CB6960 /* PetFinderExampleViewController.m */; };
+		1438350217D93DAA00CB6960 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834E317D93DAA00CB6960 /* AFHTTPClient.m */; };
+		1438350317D93DAA00CB6960 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834E517D93DAA00CB6960 /* AFHTTPRequestOperation.m */; };
+		1438350417D93DAA00CB6960 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834E717D93DAA00CB6960 /* AFImageRequestOperation.m */; };
+		1438350517D93DAA00CB6960 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834E917D93DAA00CB6960 /* AFJSONRequestOperation.m */; };
+		1438350617D93DAA00CB6960 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834EB17D93DAA00CB6960 /* AFNetworkActivityIndicatorManager.m */; };
+		1438350717D93DAA00CB6960 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834EE17D93DAA00CB6960 /* AFPropertyListRequestOperation.m */; };
+		1438350817D93DAA00CB6960 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834F017D93DAA00CB6960 /* AFURLConnectionOperation.m */; };
+		1438350917D93DAA00CB6960 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834F217D93DAA00CB6960 /* AFXMLRequestOperation.m */; };
+		1438350A17D93DAA00CB6960 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834F417D93DAA00CB6960 /* UIImageView+AFNetworking.m */; };
+		1438350B17D93DAA00CB6960 /* PetFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 143834F717D93DAA00CB6960 /* PetFinder.m */; };
+		1438351017D93EFC00CB6960 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146AA5C917C89105006F6CA5 /* SystemConfiguration.framework */; };
+		1438351117D93F0500CB6960 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146AA5C717C89093006F6CA5 /* MobileCoreServices.framework */; };
 		146AA58517C885B7006F6CA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146AA58417C885B7006F6CA5 /* UIKit.framework */; };
 		146AA58717C885B7006F6CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146AA58617C885B7006F6CA5 /* Foundation.framework */; };
 		146AA58917C885B7006F6CA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146AA58817C885B7006F6CA5 /* CoreGraphics.framework */; };
-		146AA58F17C885B7006F6CA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 146AA58D17C885B7006F6CA5 /* InfoPlist.strings */; };
-		146AA59117C885B7006F6CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146AA59017C885B7006F6CA5 /* main.m */; };
-		146AA59517C885B7006F6CA5 /* DPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146AA59417C885B7006F6CA5 /* DPAppDelegate.m */; };
-		146AA59717C885B7006F6CA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 146AA59617C885B7006F6CA5 /* Default.png */; };
-		146AA59917C885B7006F6CA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 146AA59817C885B7006F6CA5 /* Default@2x.png */; };
-		146AA59B17C885B7006F6CA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 146AA59A17C885B7006F6CA5 /* Default-568h@2x.png */; };
+		146AA5CC17C8912E006F6CA5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146AA5CB17C8912E006F6CA5 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143834D017D93DAA00CB6960 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		143834D117D93DAA00CB6960 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		143834D217D93DAA00CB6960 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		143834D417D93DAA00CB6960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		143834D517D93DAA00CB6960 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		143834DB17D93DAA00CB6960 /* PetFinderExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetFinderExampleAppDelegate.h; sourceTree = "<group>"; };
+		143834DC17D93DAA00CB6960 /* PetFinderExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetFinderExampleAppDelegate.m; sourceTree = "<group>"; };
+		143834DD17D93DAA00CB6960 /* PetFinderExampleStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PetFinderExampleStoryboard.storyboard; sourceTree = "<group>"; };
+		143834DE17D93DAA00CB6960 /* PetFinderExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetFinderExampleViewController.h; sourceTree = "<group>"; };
+		143834DF17D93DAA00CB6960 /* PetFinderExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetFinderExampleViewController.m; sourceTree = "<group>"; };
+		143834E217D93DAA00CB6960 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		143834E317D93DAA00CB6960 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		143834E417D93DAA00CB6960 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		143834E517D93DAA00CB6960 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		143834E617D93DAA00CB6960 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		143834E717D93DAA00CB6960 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		143834E817D93DAA00CB6960 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		143834E917D93DAA00CB6960 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		143834EA17D93DAA00CB6960 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		143834EB17D93DAA00CB6960 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		143834EC17D93DAA00CB6960 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		143834ED17D93DAA00CB6960 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		143834EE17D93DAA00CB6960 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		143834EF17D93DAA00CB6960 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		143834F017D93DAA00CB6960 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		143834F117D93DAA00CB6960 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		143834F217D93DAA00CB6960 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		143834F317D93DAA00CB6960 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		143834F417D93DAA00CB6960 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		143834F617D93DAA00CB6960 /* PetFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetFinder.h; sourceTree = "<group>"; };
+		143834F717D93DAA00CB6960 /* PetFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetFinder.m; sourceTree = "<group>"; };
+		1438350C17D93DD600CB6960 /* Pet Finder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pet Finder-Info.plist"; sourceTree = "<group>"; };
+		1438350F17D93E5500CB6960 /* Pet Finder-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pet Finder-Prefix.pch"; sourceTree = "<group>"; };
 		146AA58117C885B7006F6CA5 /* Pet Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		146AA58417C885B7006F6CA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		146AA58617C885B7006F6CA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		146AA58817C885B7006F6CA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		146AA58C17C885B7006F6CA5 /* Pet Finder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pet Finder-Info.plist"; sourceTree = "<group>"; };
-		146AA58E17C885B7006F6CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		146AA59017C885B7006F6CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		146AA59217C885B7006F6CA5 /* Pet Finder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pet Finder-Prefix.pch"; sourceTree = "<group>"; };
-		146AA59317C885B7006F6CA5 /* DPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAppDelegate.h; sourceTree = "<group>"; };
-		146AA59417C885B7006F6CA5 /* DPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAppDelegate.m; sourceTree = "<group>"; };
-		146AA59617C885B7006F6CA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		146AA59817C885B7006F6CA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		146AA59A17C885B7006F6CA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		146AA5C717C89093006F6CA5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		146AA5C917C89105006F6CA5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		146AA5CB17C8912E006F6CA5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1438351117D93F0500CB6960 /* MobileCoreServices.framework in Frameworks */,
+				1438351017D93EFC00CB6960 /* SystemConfiguration.framework in Frameworks */,
+				146AA5CC17C8912E006F6CA5 /* Security.framework in Frameworks */,
 				146AA58517C885B7006F6CA5 /* UIKit.framework in Frameworks */,
 				146AA58717C885B7006F6CA5 /* Foundation.framework in Frameworks */,
 				146AA58917C885B7006F6CA5 /* CoreGraphics.framework in Frameworks */,
@@ -48,10 +92,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		143834CF17D93DAA00CB6960 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				143834D017D93DAA00CB6960 /* Default-568h@2x.png */,
+				143834D117D93DAA00CB6960 /* Default.png */,
+				143834D217D93DAA00CB6960 /* Default@2x.png */,
+				143834D317D93DAA00CB6960 /* InfoPlist.strings */,
+				143834D517D93DAA00CB6960 /* main.m */,
+				143834DB17D93DAA00CB6960 /* PetFinderExampleAppDelegate.h */,
+				143834DC17D93DAA00CB6960 /* PetFinderExampleAppDelegate.m */,
+				143834DD17D93DAA00CB6960 /* PetFinderExampleStoryboard.storyboard */,
+				143834DE17D93DAA00CB6960 /* PetFinderExampleViewController.h */,
+				143834DF17D93DAA00CB6960 /* PetFinderExampleViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		143834E017D93DAA00CB6960 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				143834E117D93DAA00CB6960 /* AFNetworking */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		143834E117D93DAA00CB6960 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				143834E217D93DAA00CB6960 /* AFHTTPClient.h */,
+				143834E317D93DAA00CB6960 /* AFHTTPClient.m */,
+				143834E417D93DAA00CB6960 /* AFHTTPRequestOperation.h */,
+				143834E517D93DAA00CB6960 /* AFHTTPRequestOperation.m */,
+				143834E617D93DAA00CB6960 /* AFImageRequestOperation.h */,
+				143834E717D93DAA00CB6960 /* AFImageRequestOperation.m */,
+				143834E817D93DAA00CB6960 /* AFJSONRequestOperation.h */,
+				143834E917D93DAA00CB6960 /* AFJSONRequestOperation.m */,
+				143834EA17D93DAA00CB6960 /* AFNetworkActivityIndicatorManager.h */,
+				143834EB17D93DAA00CB6960 /* AFNetworkActivityIndicatorManager.m */,
+				143834EC17D93DAA00CB6960 /* AFNetworking.h */,
+				143834ED17D93DAA00CB6960 /* AFPropertyListRequestOperation.h */,
+				143834EE17D93DAA00CB6960 /* AFPropertyListRequestOperation.m */,
+				143834EF17D93DAA00CB6960 /* AFURLConnectionOperation.h */,
+				143834F017D93DAA00CB6960 /* AFURLConnectionOperation.m */,
+				143834F117D93DAA00CB6960 /* AFXMLRequestOperation.h */,
+				143834F217D93DAA00CB6960 /* AFXMLRequestOperation.m */,
+				143834F317D93DAA00CB6960 /* UIImageView+AFNetworking.h */,
+				143834F417D93DAA00CB6960 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		143834F517D93DAA00CB6960 /* Pet Finder */ = {
+			isa = PBXGroup;
+			children = (
+				143834F617D93DAA00CB6960 /* PetFinder.h */,
+				143834F717D93DAA00CB6960 /* PetFinder.m */,
+			);
+			path = "Pet Finder";
+			sourceTree = "<group>";
+		};
+		1438350E17D93E4400CB6960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1438350C17D93DD600CB6960 /* Pet Finder-Info.plist */,
+				1438350F17D93E5500CB6960 /* Pet Finder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		146AA57817C885B6006F6CA5 = {
 			isa = PBXGroup;
 			children = (
-				146AA58A17C885B7006F6CA5 /* Pet Finder */,
+				1438350E17D93E4400CB6960 /* Supporting Files */,
+				143834CF17D93DAA00CB6960 /* Demo */,
+				143834E017D93DAA00CB6960 /* Dependencies */,
+				143834F517D93DAA00CB6960 /* Pet Finder */,
 				146AA58317C885B7006F6CA5 /* Frameworks */,
 				146AA58217C885B7006F6CA5 /* Products */,
 			);
@@ -68,35 +184,14 @@
 		146AA58317C885B7006F6CA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				146AA5CB17C8912E006F6CA5 /* Security.framework */,
+				146AA5C917C89105006F6CA5 /* SystemConfiguration.framework */,
+				146AA5C717C89093006F6CA5 /* MobileCoreServices.framework */,
 				146AA58417C885B7006F6CA5 /* UIKit.framework */,
 				146AA58617C885B7006F6CA5 /* Foundation.framework */,
 				146AA58817C885B7006F6CA5 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		146AA58A17C885B7006F6CA5 /* Pet Finder */ = {
-			isa = PBXGroup;
-			children = (
-				146AA59317C885B7006F6CA5 /* DPAppDelegate.h */,
-				146AA59417C885B7006F6CA5 /* DPAppDelegate.m */,
-				146AA58B17C885B7006F6CA5 /* Supporting Files */,
-			);
-			path = "Pet Finder";
-			sourceTree = "<group>";
-		};
-		146AA58B17C885B7006F6CA5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				146AA58C17C885B7006F6CA5 /* Pet Finder-Info.plist */,
-				146AA58D17C885B7006F6CA5 /* InfoPlist.strings */,
-				146AA59017C885B7006F6CA5 /* main.m */,
-				146AA59217C885B7006F6CA5 /* Pet Finder-Prefix.pch */,
-				146AA59617C885B7006F6CA5 /* Default.png */,
-				146AA59817C885B7006F6CA5 /* Default@2x.png */,
-				146AA59A17C885B7006F6CA5 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146AA58F17C885B7006F6CA5 /* InfoPlist.strings in Resources */,
-				146AA59717C885B7006F6CA5 /* Default.png in Resources */,
-				146AA59917C885B7006F6CA5 /* Default@2x.png in Resources */,
-				146AA59B17C885B7006F6CA5 /* Default-568h@2x.png in Resources */,
+				143834F817D93DAA00CB6960 /* Default-568h@2x.png in Resources */,
+				143834F917D93DAA00CB6960 /* Default.png in Resources */,
+				143834FA17D93DAA00CB6960 /* Default@2x.png in Resources */,
+				1438350017D93DAA00CB6960 /* PetFinderExampleStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,18 +260,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146AA59117C885B7006F6CA5 /* main.m in Sources */,
-				146AA59517C885B7006F6CA5 /* DPAppDelegate.m in Sources */,
+				143834FC17D93DAA00CB6960 /* main.m in Sources */,
+				143834FF17D93DAA00CB6960 /* PetFinderExampleAppDelegate.m in Sources */,
+				1438350117D93DAA00CB6960 /* PetFinderExampleViewController.m in Sources */,
+				1438350217D93DAA00CB6960 /* AFHTTPClient.m in Sources */,
+				1438350317D93DAA00CB6960 /* AFHTTPRequestOperation.m in Sources */,
+				1438350417D93DAA00CB6960 /* AFImageRequestOperation.m in Sources */,
+				1438350517D93DAA00CB6960 /* AFJSONRequestOperation.m in Sources */,
+				1438350617D93DAA00CB6960 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				1438350717D93DAA00CB6960 /* AFPropertyListRequestOperation.m in Sources */,
+				1438350817D93DAA00CB6960 /* AFURLConnectionOperation.m in Sources */,
+				1438350917D93DAA00CB6960 /* AFXMLRequestOperation.m in Sources */,
+				1438350A17D93DAA00CB6960 /* UIImageView+AFNetworking.m in Sources */,
+				1438350B17D93DAA00CB6960 /* PetFinder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		146AA58D17C885B7006F6CA5 /* InfoPlist.strings */ = {
+		143834D317D93DAA00CB6960 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				146AA58E17C885B7006F6CA5 /* en */,
+				143834D417D93DAA00CB6960 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -244,8 +350,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pet Finder/Pet Finder-Prefix.pch";
-				INFOPLIST_FILE = "Pet Finder/Pet Finder-Info.plist";
+				GCC_PREFIX_HEADER = "Pet Finder-Prefix.pch";
+				INFOPLIST_FILE = "Pet Finder-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -255,8 +365,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pet Finder/Pet Finder-Prefix.pch";
-				INFOPLIST_FILE = "Pet Finder/Pet Finder-Info.plist";
+				GCC_PREFIX_HEADER = "Pet Finder-Prefix.pch";
+				INFOPLIST_FILE = "Pet Finder-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -281,6 +395,7 @@
 				146AA5A017C885B7006F6CA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
