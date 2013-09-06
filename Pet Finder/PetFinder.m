@@ -8,11 +8,7 @@
 
 #import "PetFinder.h"
 #import "AFNetworking.h"
-#import <CommonCrypto/CommonDigest.h>
 
-
-#define kPetFinderAPIKey @"ba963900373951971ad3e690062149d1"
-#define kPetFinderSecret @"eaefb47d85c4270ec321dc6c44dd6e07"
 #define kPetFinderBaseUrl @"http://api.petfinder.com/"
 
 #define kPetFinderApiFind @"pet.find"
@@ -201,7 +197,7 @@ static PetFinder * _sharedInstance;
         [NSException raise:@"Invalid API Key" format:@"Pet Finder API Key must be set!"];
     }
     
-    [params setValue:kPetFinderAPIKey forKey:@"key"];
+    [params setValue:_petFinderApiKey forKey:@"key"];
     
     //only set the default value if it hasnt been set yet and a default value has been provided
     if(![params valueForKey:@"format"] && _defaultFormat){
